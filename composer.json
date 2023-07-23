@@ -1,0 +1,23 @@
+{
+  "name": "vendor/vendor",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "config": {
+    "platform": {
+      "php": "7.1"
+    }
+  },
+  "authors": [
+    {
+      "name": "stepan",
+      "email": "email@example.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "require": {
+    "ext-readline": "*"
+  }
+}
